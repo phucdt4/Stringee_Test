@@ -1,3 +1,4 @@
+<?php
 $userId = @$_GET['userId'];
 $from = @$_GET['from'];
 $to = @$_GET['to'];
@@ -27,3 +28,4 @@ $scco = '[{
 
 header('Content-Type: application/json');
 echo $scco;
+?>
